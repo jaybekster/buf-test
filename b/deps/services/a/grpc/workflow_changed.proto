@@ -3,6 +3,6 @@ syntax = "proto3";
 package workflow;
 option go_package = "gitlab.sbmt.io/paas/content/operations/workflow/pkg/server/grpc/workflow_changed";
 
-import "deps/services/a/grpc/workflow_enums.proto";
+import "b/deps/services/a/grpc/workflow_enums.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";
