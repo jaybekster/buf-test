@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package workflow;
+option go_package = "gitlab.sbmt.io/paas/content/operations/workflow/pkg/server/grpc/workflow_changed";
+
+import "workflow_enums.proto";
