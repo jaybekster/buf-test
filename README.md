@@ -1,1 +1,1 @@
-buf breaking ./a/api/grpc --against ./b/deps/services/a/grpc --config "{\"version\":\"v1\",\"lint\":{\"use\":[\"DEFAULT\"]}, \"breaking\": {\"use\": [\"FILE\"], \"except\": [\"FILE_SAME_GO_PACKAGE\"]}}"  --exclude-imports --error-format=json
+`buf breaking ./a/api/grpc --against ./b/deps/services/a/grpc --config "{\"version\":\"v1\",\"lint\":{\"use\":[\"DEFAULT\"]}, \"breaking\": {\"use\": [\"FILE\"], \"except\": [\"FILE_SAME_GO_PACKAGE\"]}}"  --exclude-imports --error-format=json`
